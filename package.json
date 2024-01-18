@@ -1,0 +1,18 @@
+{
+  "name": "api.pentasynth",
+  "version": "1.0.0",
+  "description": "express bankend for pentasynth.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Govind Deshmukh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3",
+    "parse-dashboard": "^5.3.0",
+    "parse-server": "^6.4.0"
+  }
+}
